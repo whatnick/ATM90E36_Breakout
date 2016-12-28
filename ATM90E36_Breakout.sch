@@ -9913,7 +9913,6 @@ Source: Epson Toyocom</description>
 <vertex x="-2.54" y="-1.4478"/>
 <vertex x="-3.175" y="-1.4478"/>
 </polygon>
-<wire x1="-3.24" y1="-3.175" x2="-3.24" y2="3.175" width="0.0254" layer="20"/>
 <wire x1="-1.9" y1="2.6" x2="-1.9" y2="3.175" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="3.175" x2="-3.8" y2="3.175" width="0.127" layer="21"/>
 <wire x1="-5.4" y1="3.2" x2="-6.8" y2="3.2" width="0.127" layer="21"/>
@@ -12089,12 +12088,12 @@ Source: RS Component / BUORNS</description>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
-<part name="J1" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-3.5)" device="" value="GREEN-2P-3.5"/>
-<part name="J4" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-3.5)" device="" value="GREEN-2P-3.5"/>
-<part name="J3" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
-<part name="J6" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
-<part name="J2" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
-<part name="J5" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
+<part name="UAUB" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-3.5)" device="" value="GREEN-2P-3.5"/>
+<part name="UCUN" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-3.5)" device="" value="GREEN-2P-3.5"/>
+<part name="CTA" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
+<part name="CTB" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
+<part name="CTC" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
+<part name="CTN" library="Seeed-Connector -2016" deviceset="AUDIO-JACK-6P-SMD(ST-PJ-312)" device="" value="ST-PJ-312"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M06" device="LOCK" value="DIG"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="LOCK" value="SPI"/>
 <part name="DMA" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NO" device="FULL_BOX_SILK" value="JUMPER-PAD-3-NOFULL_BOX_SILK"/>
@@ -12197,21 +12196,21 @@ Source: RS Component / BUORNS</description>
 <instance part="R10" gate="G$1" x="27.94" y="142.24" rot="R90"/>
 <instance part="R12" gate="G$1" x="43.18" y="141.986" rot="R90"/>
 <instance part="R14" gate="G$1" x="55.88" y="141.732" rot="R90"/>
-<instance part="J1" gate="G$1" x="230.124" y="91.694" rot="R180"/>
-<instance part="J4" gate="G$1" x="255.778" y="91.694" rot="R180"/>
-<instance part="J3" gate="G$1" x="232.664" y="160.02" smashed="yes" rot="R90">
+<instance part="UAUB" gate="G$1" x="230.124" y="91.694" rot="R180"/>
+<instance part="UCUN" gate="G$1" x="255.778" y="91.694" rot="R180"/>
+<instance part="CTA" gate="G$1" x="232.664" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="226.314" y="153.67" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="240.284" y="157.48" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="J6" gate="G$1" x="259.08" y="160.02" smashed="yes" rot="R90">
+<instance part="CTB" gate="G$1" x="259.08" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="252.73" y="153.67" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="266.7" y="157.48" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="J2" gate="G$1" x="231.14" y="118.872" smashed="yes" rot="R90">
+<instance part="CTC" gate="G$1" x="231.14" y="118.872" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.79" y="112.522" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="238.76" y="116.332" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="J5" gate="G$1" x="257.556" y="119.126" smashed="yes" rot="R90">
+<instance part="CTN" gate="G$1" x="257.556" y="119.126" smashed="yes" rot="R90">
 <attribute name="NAME" x="251.206" y="112.776" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="265.176" y="116.586" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
@@ -12287,7 +12286,7 @@ Source: RS Component / BUORNS</description>
 <label x="10.16" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="COM1"/>
+<pinref part="CTB" gate="G$1" pin="COM1"/>
 <wire x1="248.92" y1="168.91" x2="243.078" y2="168.91" width="0.1524" layer="91"/>
 <wire x1="243.078" y1="168.91" x2="243.078" y2="168.656" width="0.1524" layer="91"/>
 <label x="244.856" y="169.164" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -12321,7 +12320,7 @@ Source: RS Component / BUORNS</description>
 <label x="10.16" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="L"/>
+<pinref part="CTA" gate="G$1" pin="L"/>
 <wire x1="242.824" y1="153.67" x2="247.65" y2="153.67" width="0.1524" layer="91"/>
 <label x="245.618" y="153.924" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12352,7 +12351,7 @@ Source: RS Component / BUORNS</description>
 <label x="10.16" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="L"/>
+<pinref part="CTB" gate="G$1" pin="L"/>
 <wire x1="269.24" y1="153.67" x2="271.78" y2="153.67" width="0.1524" layer="91"/>
 <label x="270.764" y="153.67" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12385,7 +12384,7 @@ Source: RS Component / BUORNS</description>
 <label x="50.8" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="L"/>
+<pinref part="CTC" gate="G$1" pin="L"/>
 <wire x1="241.3" y1="112.522" x2="244.602" y2="112.522" width="0.1524" layer="91"/>
 <label x="243.078" y="112.776" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12416,7 +12415,7 @@ Source: RS Component / BUORNS</description>
 <label x="50.8" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="COM1"/>
+<pinref part="CTC" gate="G$1" pin="COM1"/>
 <wire x1="220.98" y1="127.762" x2="218.694" y2="127.762" width="0.1524" layer="91"/>
 <label x="218.948" y="127.762" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12737,7 +12736,7 @@ Source: RS Component / BUORNS</description>
 <label x="71.12" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="UCUN" gate="G$1" pin="2"/>
 <wire x1="260.858" y1="94.234" x2="267.462" y2="94.234" width="0.1524" layer="91"/>
 <label x="263.652" y="94.234" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13138,7 +13137,7 @@ Source: RS Component / BUORNS</description>
 <segment>
 <wire x1="267.462" y1="112.776" x2="267.716" y2="112.776" width="0.1524" layer="91"/>
 <label x="270.256" y="112.776" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="L"/>
+<pinref part="CTN" gate="G$1" pin="L"/>
 <wire x1="267.716" y1="112.776" x2="272.034" y2="112.776" width="0.1524" layer="91"/>
 <junction x="267.716" y="112.776"/>
 </segment>
@@ -13153,7 +13152,7 @@ Source: RS Component / BUORNS</description>
 <label x="53.34" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="COM1"/>
+<pinref part="CTN" gate="G$1" pin="COM1"/>
 <wire x1="247.396" y1="128.016" x2="243.332" y2="128.016" width="0.1524" layer="91"/>
 <label x="244.602" y="128.016" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -13168,7 +13167,7 @@ Source: RS Component / BUORNS</description>
 <label x="10.16" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="COM1"/>
+<pinref part="CTA" gate="G$1" pin="COM1"/>
 <wire x1="222.504" y1="168.91" x2="218.186" y2="168.91" width="0.1524" layer="91"/>
 <label x="218.948" y="169.164" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -13180,7 +13179,7 @@ Source: RS Component / BUORNS</description>
 <label x="27.94" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="UAUB" gate="G$1" pin="1"/>
 <wire x1="235.204" y1="89.154" x2="239.776" y2="89.154" width="0.1524" layer="91"/>
 <label x="239.776" y="89.154" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13193,7 +13192,7 @@ Source: RS Component / BUORNS</description>
 </segment>
 <segment>
 <label x="240.284" y="94.234" size="1.778" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="UAUB" gate="G$1" pin="2"/>
 <wire x1="235.204" y1="94.234" x2="240.284" y2="94.234" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13204,7 +13203,7 @@ Source: RS Component / BUORNS</description>
 <label x="55.88" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="UCUN" gate="G$1" pin="1"/>
 <wire x1="260.858" y1="89.154" x2="267.462" y2="89.154" width="0.1524" layer="91"/>
 <label x="264.16" y="89.154" size="1.778" layer="95" xref="yes"/>
 </segment>
