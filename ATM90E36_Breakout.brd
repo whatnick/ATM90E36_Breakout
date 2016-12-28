@@ -19,7 +19,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -155,7 +155,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="47.46" x2="0" y2="2.54" width="0" layer="20"/>
+<wire x1="0" y1="47.46" x2="0" y2="46.355" width="0" layer="20"/>
+<wire x1="0" y1="41.148" x2="0" y2="33.909" width="0" layer="20"/>
+<wire x1="0" y1="28.702" x2="0" y2="21.336" width="0" layer="20"/>
+<wire x1="0" y1="16.129" x2="0" y2="8.763" width="0" layer="20"/>
+<wire x1="0" y1="3.556" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="2.54" y1="0" x2="47.46" y2="0" width="0" layer="20"/>
 <wire x1="47.46" y1="0" x2="50" y2="2.54" width="0" layer="20" curve="90"/>
@@ -203,6 +207,26 @@
 <text x="45.212" y="11.049" size="0.8" layer="26" font="vector" ratio="20" rot="MR0">CF3</text>
 <text x="45.212" y="8.636" size="0.8" layer="26" font="vector" ratio="20" rot="MR0">CF2</text>
 <text x="45.339" y="6.096" size="0.8" layer="26" font="vector" ratio="20" rot="MR0">CF1</text>
+<wire x1="0" y1="46.355" x2="1.905" y2="46.355" width="0" layer="20"/>
+<wire x1="1.905" y1="46.355" x2="3.175" y2="45.085" width="0" layer="20" curve="90"/>
+<wire x1="3.175" y1="45.085" x2="3.175" y2="42.418" width="0" layer="20"/>
+<wire x1="3.175" y1="42.418" x2="1.905" y2="41.148" width="0" layer="20" curve="90"/>
+<wire x1="1.905" y1="41.148" x2="0" y2="41.148" width="0" layer="20"/>
+<wire x1="0" y1="33.909" x2="1.905" y2="33.909" width="0" layer="20"/>
+<wire x1="1.905" y1="33.909" x2="3.175" y2="32.639" width="0" layer="20" curve="90"/>
+<wire x1="3.175" y1="32.639" x2="3.175" y2="29.972" width="0" layer="20"/>
+<wire x1="3.175" y1="29.972" x2="1.905" y2="28.702" width="0" layer="20" curve="90"/>
+<wire x1="1.905" y1="28.702" x2="0" y2="28.702" width="0" layer="20"/>
+<wire x1="0" y1="21.336" x2="1.905" y2="21.336" width="0" layer="20"/>
+<wire x1="1.905" y1="21.336" x2="3.175" y2="20.066" width="0" layer="20" curve="90"/>
+<wire x1="3.175" y1="20.066" x2="3.175" y2="17.399" width="0" layer="20"/>
+<wire x1="3.175" y1="17.399" x2="1.905" y2="16.129" width="0" layer="20" curve="90"/>
+<wire x1="1.905" y1="16.129" x2="0" y2="16.129" width="0" layer="20"/>
+<wire x1="0" y1="8.763" x2="1.905" y2="8.763" width="0" layer="20"/>
+<wire x1="1.905" y1="8.763" x2="3.175" y2="7.493" width="0" layer="20" curve="90"/>
+<wire x1="3.175" y1="7.493" x2="3.175" y2="4.826" width="0" layer="20"/>
+<wire x1="3.175" y1="4.826" x2="1.905" y2="3.556" width="0" layer="20" curve="90"/>
+<wire x1="1.905" y1="3.556" x2="0" y2="3.556" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="adafruit">
